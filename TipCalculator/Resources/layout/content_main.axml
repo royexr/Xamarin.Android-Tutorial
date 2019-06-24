@@ -10,9 +10,11 @@
 
     <EditText
         android:layout_width ="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/inputBill"/>
 
     <Button
+        android:id="@+id/calculateButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CALCULATE"/>
@@ -27,11 +29,12 @@
             android:text="Tip"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/textView1" />
+            android:id="@+id/textView1"
+            android:layout_marginRight="20dp" />
         <TextView
+            android:id="@+id/outputTip"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/textView2" />
+            android:layout_height="match_parent" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -44,11 +47,12 @@
             android:text="Total"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/textView3" />
+            android:id="@+id/textView3"
+            android:layout_marginRight="20dp" />
         <TextView
+            android:id="@+id/outputTotal"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/textView4" />
+            android:layout_height="match_parent" />
     </LinearLayout>
 
 </LinearLayout>
